@@ -25,15 +25,9 @@ export default function Footer() {
                 <div>
                     <h4 style={{ marginBottom: '1rem' }}>Quick Links</h4>
                     <ul style={{ listStyle: 'none', color: 'var(--text-muted)' }}>
-                        <li style={{ marginBottom: '0.5rem' }}>
-                            <Link href="/products" className="footer-link">Products</Link>
-                        </li>
-                        <li style={{ marginBottom: '0.5rem' }}>
-                            <Link href="/about" className="footer-link">About Us</Link>
-                        </li>
-                        <li style={{ marginBottom: '0.5rem' }}>
-                            <Link href="/location" className="footer-link">Locate Us</Link>
-                        </li>
+                        <li style={{ marginBottom: '0.5rem' }} className="footer-link">Products</li>
+                        <li style={{ marginBottom: '0.5rem' }} className="footer-link">About Us</li>
+                        <li style={{ marginBottom: '0.5rem' }} className="footer-link">Locate Us</li>
                     </ul>
                 </div>
                 <div>
